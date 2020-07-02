@@ -1,0 +1,10 @@
+name: eswf-buzz
+version: '0.0.1'
+license: BSD3
+dependencies:
+- base < 5
+- transient
+- transient-universe
+executables:
+  eswf-buzz:
+    main: Main.hs

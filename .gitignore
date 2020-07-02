@@ -1,0 +1,9 @@
+# NIX
+
+result
+dist-newstyle
+
+# Cabal
+dist*/
+.ghc.environment.*
+cabal.project.local
