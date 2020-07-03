@@ -5,6 +5,7 @@ dependencies:
 - base < 5
 - transient
 - transient-universe
+- axiom
 executables:
   eswf-buzz:
     main: Main.hs

@@ -1,0 +1,4 @@
+{
+    "image": "nixpkgs/devcontainer:latest",
+    "forwardPorts": [3000],
+}

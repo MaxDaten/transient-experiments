@@ -7,8 +7,8 @@ mkDerivation {
   version = "0.4.7";
   src = fetchgit {
     url = "https://github.com/transient-haskell/transient-stack";
-    sha256 = "1ygpqfsgxc6sbd91fcyi4i78nds1l680krjww9r281rsvmmk3j1l";
-    rev = "b10d3912ee430b41a097725a1b4aec1b9a1620c6";
+    sha256 = "1bj0hi9rmfi6p6nsvrh3lqn4r5alnpvf69z8wiiamckqp47xamw2";
+    rev = "d57f3f6f78eda3fe6b43d4d77e784a61a9aab7fa";
     fetchSubmodules = true;
   };
   postUnpack = "sourceRoot+=/axiom; echo source root reset to $sourceRoot";

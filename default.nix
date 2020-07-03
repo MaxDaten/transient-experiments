@@ -1,4 +1,5 @@
-{ mkDerivation, base, hpack, stdenv, transient, transient-universe
+{ mkDerivation, axiom, base, hpack, stdenv, transient
+, transient-universe
 }:
 mkDerivation {
   pname = "eswf-buzz";
@@ -7,7 +8,9 @@ mkDerivation {
   isLibrary = false;
   isExecutable = true;
   libraryToolDepends = [ hpack ];
-  executableHaskellDepends = [ base transient transient-universe ];
+  executableHaskellDepends = [
+    axiom base transient transient-universe
+  ];
   jailbreak = true;
   prePatch = "hpack";
   license = stdenv.lib.licenses.bsd3;
